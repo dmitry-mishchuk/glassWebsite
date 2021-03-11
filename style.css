@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(to right bottom, rgba(233,236,255,.7), rgba(178,232,255,.3));
+  border-radius: 2rem;
+}
+.circle1, .cercle2 {
+  background: white;
+  background: linear-gradient(to right bottom, rgba(233,236,255,.7), rgba(178,232,255,.3));
+}
