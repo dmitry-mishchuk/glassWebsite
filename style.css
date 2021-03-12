@@ -14,10 +14,35 @@ main {
   background: white;
   min-height: 80vh;
   width: 60%;
-  background: linear-gradient(to right bottom, rgba(233,236,255,.7), rgba(178,232,255,.3));
+  background: linear-gradient(
+    to right bottom,
+    rgba(233, 236, 255, 0.7),
+    rgba(178, 232, 255, 0.3)
+  );
   border-radius: 2rem;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(2rem);
+  backdrop-filter: blur(2rem);
 }
-.circle1, .cercle2 {
+.circle1,
+.circle2 {
   background: white;
-  background: linear-gradient(to right bottom, rgba(233,236,255,.7), rgba(178,232,255,.3));
+  background: linear-gradient(
+    to right bottom,
+    rgba(233, 236, 255, 0.7),
+    rgba(255, 232, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
 }
